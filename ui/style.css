@@ -1,0 +1,168 @@
+body{
+	background-color: #fafafa;
+}
+
+.head{
+	background-color: #337ab7;
+	color: #fff;
+	text-shadow: -3px 3px #222;
+	font-size: 22pt;
+	font-weight: bolder;;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 3px solid #666;
+}
+
+.login-box{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+.sidebar{
+	background-color: #448bc9;
+	border-radius: 0 0 10px 0;
+}
+
+.sidebar ul{
+	list-style-type: none;
+	margin: 15px 0 15px 0;
+	padding: 0;
+	border-bottom: 1px solid #337ab7;
+}
+
+.sidebar ul li{
+	padding: 0;
+	border-top: 1px solid #337ab7;
+	width: 100%;
+}
+
+.sidebar a {
+	display: block;
+	color: #FFFFFF;
+	font-size: 14pt;
+	padding: 3px 0 3px 10px;
+	margin-left: 0px;
+}
+
+.sidebar a:hover {
+	text-decoration: none;
+	background-color: #337ab7;
+}
+
+.sidebar .active {
+	text-decoration: none;
+	background-color: #337aa5;
+}
+
+table.inf {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+table.inf img {
+	width: 90px;
+	margin-right: 9px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.content{
+	min-height: 500px;
+	background-color: #eee;
+	border-radius: 8px;
+	margin: 8px 0;
+}
+
+.footer{
+	background-color: #225895;
+	text-align: center;
+	padding: 10px;
+	color: #999;
+}
+
+.submenu{
+	padding: 0px 0 4px 0;
+	border-bottom: 2px dotted #A29BF8;
+	margin: 0 0 5px 0;
+}
+
+.h-title{
+	font-size: 13pt;
+	font-family: sans-serif;	
+}
+
+label {
+	font-weight: normal;
+	font-size: 10.5pt;
+	padding: 4px 0 0 0;
+	text-align: right;
+}
+
+table th{
+	text-align: center;
+}
+
+ .ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+ }
+
+/* jquery combobox */
+
+   .custom-combobox {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .custom-combobox-toggle {
+  	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 4px 10px;
+    background-color: #fff;
+    width: 100%
+  }
+
+.notif{
+	display: none;
+	position: fixed;
+	right: 15px;
+	top: 5px;
+	width: 350px;
+	padding: 5px 0;
+	background-color: #dfd;
+	border-radius: 6px;
+	border:1px solid #0f0;
+	text-align: center;
+	box-shadow: 0 0 6px #00FF00;
+	text-shadow: 0 0 1px #00FF00;						
+}
+
+.fieldset{
+	margin-top: 20px;
+}
+
+.chart {
+	border: 1px solid #aaa;
+	padding-top: 8px;
+	background-color: #fff;
+	min-height: 250px;
+}
+
+.btn-ex{
+	float: left;
+}
+
+table.usr {
+	background-color: #fff;
+	border-radius: 6px;
+}
